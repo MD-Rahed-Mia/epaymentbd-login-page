@@ -54,10 +54,15 @@ button {
   height: 22px;
   margin-right: 15px;
 }
-
-.google-btn {
+.gBox {
   width: 300px;
   margin: 0 auto;
+}
+
+.google-btn {
+  margin: 8px;
+  width: 100%;
+  height: 40px;
 }
 
 
