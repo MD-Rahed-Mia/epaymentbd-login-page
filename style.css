@@ -55,6 +55,12 @@ button {
   margin-right: 15px;
 }
 
+.google-btn {
+  width: 300px;
+  margin: 0 auto;
+}
+
+
 @media screen and (max-width: 500px) {
   .wrapper {
     width: 420px;
