@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-PaymentBd sign up-demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="signUp.css" />
+  </head>
+  <body>
+    <div class="wrapper border w-md-25 ">
+      <div class="wrapper-sub text-center mt-3">
+        <svg
+          width="96"
+          height="96"
+          viewBox="0 0 48 32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>Agnes</title>
+          <defs>
+            <linearGradient x1="0%" y1="100%" y2="0%" id="logo-a">
+              <stop stop-color="#007CFE" stop-opacity="0" offset="0%"></stop>
+              <stop stop-color="#007DFF" offset="100%"></stop>
+            </linearGradient>
+            <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="logo-b">
+              <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"></stop>
+              <stop stop-color="#FF4F7A" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <g fill="none" fill-rule="evenodd">
+            <rect fill="url(#logo-a)" width="32" height="32" rx="16"></rect>
+            <rect
+              fill="url(#logo-b)"
+              x="16"
+              width="32"
+              height="32"
+              rx="16"
+            ></rect>
+          </g>
+        </svg>
+      </div>
+      <div class="heading mt-2 text-center">
+        <h1 class="">Hi, Welcome to e-PaymentBd</h1>
+        <p class="text-success">Lorem ipsum dolor sit.</p>
+      </div>
+      <div class="input-container">
+        <form>
+          
+        <div class="name d-flex flex-column">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="&#xf007; name"
+            class=""
+            style="font-family: arial, 'Font Awesome 6 Free'; font-weight: 500;"required
+          />
+        </div>
+        <div class="email d-flex flex-column mt-2">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="name"
+            placeholder="&#xf0e0; email address"
+            class=""
+            style="font-family: arial, 'Font Awesome 6 Free'; font-weight: 500;"required
+          />
+        </div>
+        <div class="password d-flex flex-column mt-2">
+          <label for="email">password</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="&#xf111; password"
+            class=""
+            style="font-family: arial, 'Font Awesome 6 Free'; font-weight: 500;"required
+          />
+        </div>
+        <div class="password d-flex flex-column mt-2">
+          <label for="email">password</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="&#xf111; confirm password"
+            class=""
+            style="font-family: arial, 'Font Awesome 6 Free'"
+            required
+          />
+        </div>
+
+        <div class="agree-box mt-2 d-flex justify-content-center">
+          <div class="switch"> <div class="switch-btn"></div> </div>
+            <p>I agree to the <span>terms of services</span> and <span>privacy policy.</span></p>
+          </div>
+       
+         <button type="submit" class=" p-1 w-100 rounded text-white">
+          <i class="fa-solid p-1 text-white fa-lock"></i>
+          Sign Up</button>
+        <p class="text-center mt-3">Already have an account?</p>
+
+        <button class="w-100 login-btn p-1 rounded ">Log In</button>
+      </div>
+        </form>
+
+
+
+    </div>
+
+    
+        <div class="website-details d-none d-md-none d-lg-block">
+          
+        </div>
+
+
+
+    <script>
+      const switch1 = document.querySelector(".switch");
+      const switchBtn = document.querySelector(".switch-btn");
+      let count = 0;
+      switch1.addEventListener("click", () => {
+        count++;
+        if (count % 2 == 1) {
+        switchBtn.style.left = `15px`;
+        switchBtn.style.backgroundColor = "white";
+        }
+        else {
+        switchBtn.style.left = `5px`;
+        switchBtn.style.backgroundColor = "gray";
+        }
+      })
+    </script>
+  </body>
+</html>

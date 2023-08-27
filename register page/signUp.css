@@ -1,0 +1,103 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none ;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    width: 450px;
+    padding-bottom: 50px;
+}
+
+.heading h1 {
+    font-size: 1.5rem;
+    color: #181616ec;
+}
+
+input {
+    font-size: 1rem;
+    color: #111;
+    padding: 5px;
+    padding-left: 1rem;
+    border-radius: 5px;
+    border: 1px solid lightseagreen;
+    
+}
+
+.input-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+}
+
+::placeholder {
+    font-size: 0.8rem;
+    color: lightseagreen;
+}
+
+.switch {
+    width: 2rem;
+    border-radius: 30px;
+    background: lightseagreen;
+    height: 1rem;
+    margin-right: 9px;
+    position: relative;
+    cursor: pointer;
+}
+
+.switch-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 4px;
+    height: 0.7rem;
+    width: 0.7rem;
+    background: gray;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.agree-box p {
+    font-size: 0.7rem;
+}
+
+button {
+    background: lightseagreen;
+}
+
+.agree-box span {
+    color: lightseagreen;
+    cursor: pointer;
+}
+
+.login-btn {
+    background: none;
+    border: 1px solid lightseagreen;
+    transition: 500ms;
+}
+
+.login-btn:hover {
+    background: lightseagreen;
+    border: none;
+    color: white;
+}
+
+.website-details {
+    background: rgba(197, 197, 197, 0.791);
+    height: 685px;
+    width: 700px;
+}
