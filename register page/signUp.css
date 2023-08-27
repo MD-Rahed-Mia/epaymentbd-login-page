@@ -97,6 +97,9 @@ button {
   background: none;
   border: 1px solid #00b5e7;
   transition: 500ms;
+  width: 260px;
+  margin: 0 auto;
+  display: block;
 }
 
 .login-btn:hover {
@@ -109,4 +112,8 @@ button {
   background: rgba(197, 197, 197, 0.791);
   height: 685px;
   width: 700px;
+}
+
+a {
+    text-decoration: none;
 }
